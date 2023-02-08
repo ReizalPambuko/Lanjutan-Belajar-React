@@ -1,0 +1,35 @@
+.postApi{
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+    margin: 30px;
+    width: 30%;
+}
+
+input{
+    width: 90%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 3px;
+    margin: 10px 0;
+}
+
+textarea{
+    border: none;
+    outline: none;
+    border: 1px solid rgb(92, 92, 92);
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.save{
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 25px;
+    margin: 20px 0;
+}

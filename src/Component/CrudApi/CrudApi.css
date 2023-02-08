@@ -1,0 +1,29 @@
+.crud{
+    display: flex;
+    padding: 20px;
+}
+
+.content-crud{
+    margin: 0 10px;
+}
+
+.delete{
+    background-color: rgb(230, 0, 0);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 8px 15px;
+    color: #fff;
+    box-shadow: 0 5px 13px rgba(0,0,0,.5);
+}
+
+.update{
+    background-color: rgb(125, 207, 2);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 8px 15px;
+    color: #fff;
+    box-shadow: 0 5px 13px rgba(0,0,0,.5);
+    margin-right: 20px;
+}
