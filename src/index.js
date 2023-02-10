@@ -5,13 +5,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 //Home
-import Home from './Component/Home/Home';
+//import Home from './Component/Home/Home';
+import Product from './Component/Pages/Product/Product.';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home />
+    <Product />
   </React.StrictMode>
 );
 
