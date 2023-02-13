@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import StateFullComponent from "./StateFullComponent/StateFullComponent";
+import { connect } from "react-redux";
 
 class Product extends Component {
     state = {
@@ -18,11 +19,18 @@ class Product extends Component {
         return(
             <div>
                 <h3>Rei_Shop</h3>
-                <p>{this.state.count}</p>
+                <p>{this.props.count}</p>
                 <StateFullComponent handleOnChange={(value) => this.handleCounter(value)} />
             </div>
         )
     }
 }
 
-export default Product;
+
+const mapStateToProps = (state) => {
+    return{
+        count: state.totalOrder
+    }
+}
+
+export default connect(mapStateToProps)(Product);

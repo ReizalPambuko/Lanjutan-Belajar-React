@@ -7,7 +7,7 @@ class StateFullComponent extends Component {
             <div>
                 <h4>Hamburger</h4>
                 <p>20.000</p>
-                <Counter handleOnChange={(value) => this.props.handleOnChange(value)}/>
+                <Counter handleOnChange={(valuef) => this.props.handleOnChange(value)}/>
             </div>
         )
     }
